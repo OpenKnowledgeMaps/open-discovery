@@ -1,3 +1,5 @@
+*If you are interested in joining this proposal, please have a look at the Call for Collaborators: https://github.com/pkraker/open-discovery/issues/1*
+
 #Proposal
 Discovery is an essential task for every researcher, especially in dynamic research fields such as biomedicine. Currently, there are only a limited number of discovery tools for scientific content that can be used by a mainstream audience; most users rely on search engines. But while search works well for many information needs, it makes for a poor discovery tool. Search engines display very little information at a glance (usually limited to 10 items a page), and they provide little context and structuring. Another problem is that the results of the discovery process are usually not shared; they become visible only later as reference lists or reading lists, but again with very little context. Therefore, the discovery process is repeated over and over again, taking away a lot of time and resources from the actual research.
 
