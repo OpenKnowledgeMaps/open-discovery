@@ -59,7 +59,7 @@ We will annotate/enrich publications with:
   
 
 ##Main Use Case
-Sarah is a first-year PhD student in biomedicine, starting her PhD project, writing her thesis on the zika virus.  First, she needs to catch up with the literature and build a mental model of the field. 
+Sarah is a first-year PhD student in biomedicine, starting her PhD project on the zika virus. First, she needs to catch up with the literature and build a mental model of the field. 
 
 Sarah types "zika", her topic of interest, into BLAZE. Sarah is presented with an interactive map for this field. Blue bubbles represent the main research areas; the closer two bubbles, the closer they are subject-wise. This gives Sarah an overview of the main areas within the field and gives her a mental model of the field.
 
