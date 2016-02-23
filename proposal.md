@@ -52,7 +52,7 @@ We will annotate/enrich publications with:
 * MESH terms (for PubMED pubs utilizing their API)
 * References (for PubMED pubs utilizing their API)
 * pdbCodes (fulltext analysis using OpenAIRE API)
-* Funding (Grant) Info for WT, EU, NIH (fulltext analysis using the OpenAIRE API)
+* Funding (Grant) Info for WT, EU, NIH (fulltext analysis using the OpenAIRE and Crossref APIs)
   
 
 ##Main Use Case
