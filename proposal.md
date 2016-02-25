@@ -1,5 +1,10 @@
+![Blaze Logo](images/logo-blaze.png "Blaze Logo")
+
 #BLAZE: The Collaborative Open Science Discovery Tool
+
 ###Case for Support for the Open Science Prize
+
+**Collaborators**: Peter Kraker, Mike Skaug, Scott Chamberlain, Maxi Schramm, Michael Karpeles, Omiros Metaxas, Asura Enkhbayar & Björn Brembs
 
 ##Executive Summary
 
