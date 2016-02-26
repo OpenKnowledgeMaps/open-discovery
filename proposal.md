@@ -1,12 +1,13 @@
 ![Blaze Logo](images/logo-blaze.png "Blaze Logo")
 
-#BLAZE: The Collaborative Open Science Discovery Tool
+#BLAZE: The Comprehensive Open Science Discovery Tool
 
 ###Case for Support for the Open Science Prize
 
-**Collaborators**: Peter Kraker, Mike Skaug, Scott Chamberlain, Maxi Schramm, Michael Karpeles, Omiros Metaxas, Asura Enkhbayar & Björn Brembs
+####Collaborators
+Peter Kraker, Mike Skaug, Scott Chamberlain, Maxi Schramm, Michael Karpeles, Omiros Metaxas, Asura Enkhbayar & Björn Brembs
 
-##Executive Summary
+####Summary
 
 Discovery is an essential task for every researcher, especially in dynamic research fields such as biomedicine. Currently, however, there are only a limited number of tools that can be used by a mainstream audience, most notably search engines. Search engines present resources in a linear, one-dimensional way, making it necessary to sift through every item in the list. Another problem is that the results of the traditional discovery process are usually closed. Therefore, the discovery process is repeated over and over again, taking away valuable time and resources from the actual research. We propose BLAZE, the comprehensive open science discovery tool. BLAZE goes far beyond the functionality of search engines and social reading lists. It leverages the existing open science ecosystem to provide topical maps of research fields, involving not only publications, but also datasets, presentations, source code and media files. The resources are further enriched with altmetrics data and facts extracted from open content. BLAZE will enable users to discover open science content from a single, intuitive interface. An edit mode will provided for users to make changes to the maps and to introduce new papers and topical areas. The collaboration history of a map is preserved and the maps themselves are open, so users can embed them on their own websites and export the structure into other open science tools. Making the discovery process visible will have many advantages. Researchers are able to reuse maps, saving valuable time and effort. They can build on top of each other’s work and identify collaborators long before the research is usually communicated. There is an existing, early-stage protoype for BLAZE. With the Open Science Prize, we want to extend this prototype to a much more comprehensive tool. BLAZE will show the enormous potential of open science for innovation in scholarly communication by providing a structured, multi-dimensional approach to discovery.
 
@@ -57,13 +58,32 @@ In terms of the interaction design, the visualization follows Shneiderman’s we
 The backend of the visualization is written in PHP and R. A preprocessing component is responsible for creating the data for the visualization. It connects to the PLOS API to retrieve metadata and fulltext. It then proceeds to calculate cosine similarity between papers based on a term-document matrix using the R tm package. Based on the similarity matrix, the spatial representation and the sub-areas are calculated using ordination and clustering techniques. A naming component finally determines the label for each cluster using keywords. After processing, the representation is saved in a SQLite database. The full stack implementation can be seen on [Open Knowledge Maps](http://openknowledgemaps.org/mozfest). This version allows you to create an interactive map based on a PLOS search result and is able to keep a history of previously created maps.
 
 ###Planned Improvements
+
+In the first phase of the Open Science Price, we will extend both the backend and the frontend of the existing early-stage prototype. 
+
 ####Expand Content Sources
-In the first phase of the Open Science Price, we will extend both the backend and the frontend of the BLAZE tool. One of the primary objectives is to extend BLAZE to include other open content sources, including non-publication content, that are supported by rOpenSci (see above). This will require changes both to the backend calculations and data representation as well as to the frontend visualization. The first step will be to develop a data model that incorporates heterogenous data sources. Part of this will involve adding connector(s) to content mining APIs and altmetrics APIs through rOpenSci to provide additional metadata for each resource. We will then extend the map visualization to enable highlighting of contextual facts and to create additional links between the papers. For example, a researcher might want to highlight all papers that contain the same species, focus on recently published material, or view the citation links between papers. Researchers might also want to cluster the resources based on a metric other than keyword similarity, like readership, type of content (i.e. paper, data set, presentation, etc.) or funding source. All of this will be enabled through the interactive BLAZE interface.
+One of the primary objectives is to extend BLAZE to include further open content sources, including non-publication content, that are supported by rOpenSci (for a complete list of content sources see [Data Sources](#data-sources)). The first step will be to develop a data model that incorporates heterogenous data sources. Part of this will involve adding connector(s) to altmetrics APIs through rOpenSci to provide additional context for each resource. Moreover, we will utilize OpenAIRE services to further annotate publications with additional side information including MESH terms (based on PubMED API), PDBCodes and funding information (based on full text analysis). The content will then be exposed via an API to BLAZE.
 
-####Editing and Sharing
-To unleash the full potential of BLAZE, one of the primary goals during phase one of the Open Science Prize is to enable editing and sharing of knowledge maps. This will also require adaptations to the backend database operations and the frontend user interaction. On the front end, we will enable an edit mode that allows researchers to manually add content to the map, modify or add metadata to content, like tags, and create new clusters. The editing history will be preserved in a Wikipedia-like model to allow collaborative building of knowledge maps. The maps themselves will be saved at [Open Knowledge Maps](http://openknowledgemaps.org/mozfest) where they can me browsed by other researchers and can serve as a starting point for other researchers' exploration. We will also add integration with existing tools in the open digital ecosystem, including osf.io, Zotero, and ORCID, so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
+####Improving Topic Detection and Similarity Analysis
 
-###Data Sources
+We plan to utilize a novel multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g., structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g., MESH terms), be of different modalities (e.g., images), and form networks (e.g., citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual only topic models. 
+The intuition behind topic modeling is that a single document is on multiple "topics" in different proportions.
+
+A topic is defined as a probability distribution over a fixed vocabulary (terms). A document is modeled as a probability distribution over topics. Inferred topics can be utilized as features on additional data mining tasks (e.g., clustering, classification, trend or similarity analysis). In our case, we plan to utilize proposed engine to:
+
+1. Identify relevant content: Based on MV-PTM we will  enhance similarity analysis and relevant content identification. Thus, we will be able to support topic based search or search by example (specifying one or more publications. 
+2. Eliminate “duplicate” research areas: Human-based annotation and clustering in such "huge" research spaces may lead to duplicate entries on the map. We will utilize MV-PTM to identify overlapping research areas or clusters. 
+Proposed MV-PTM engine has already been used in real world applications, e.g., evaluation of EU-funded projects or publication policy making, on top of real world massive datasets, i.e., ACM corpus and open access PubMed.
+
+####Map Extensions
+We will extend the map visualization to enable highlighting of contextual facts and to create additional links between the papers. For example, a researcher might want to highlight all papers that contain the same species, focus on recently published material, or view the citation links between papers. Researchers might also want to cluster the resources based on a metric other than keyword similarity, like readership, type of content (i.e. paper, data set, presentation, etc.) or funding source. All of this will be enabled through the interactive BLAZE frontend interface.
+
+####Map Editing and Sharing
+To unleash the full potential of BLAZE, one of the primary goals during phase one of the Open Science Prize is to enable editing and sharing of knowledge maps. This will also require adaptations to the backend database operations and the frontend user interaction. On the front end, we will enable an edit mode that allows researchers to manually add content to the map, modify or add metadata to content, like tags, and create new clusters. The editing history will be preserved in a Wikipedia-like model to allow collaborative building of knowledge maps. The maps themselves will be saved at [Open Knowledge Maps](http://openknowledgemaps.org/mozfest) where they can me browsed by other researchers and can serve as a starting point for other researchers' exploration. 
+
+We will also add integration with existing tools in the open digital ecosystem, including osf.io, Zotero, and ORCID, so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
+
+##Data Sources
 As stated above, we use R in the backend to access open content on the web. We use many software packages produced by rOpenSci, including the ability to search for scholarly content against the following engines (with wide diversity of journals):
 
 * Crossref (~78 million records)
@@ -100,12 +120,41 @@ We will annotate/enrich publications with:
 * pdbCodes (fulltext analysis using OpenAIRE API)
 * Funding (Grant) Info for WT, EU, NIH (fulltext analysis using the OpenAIRE and Crossref APIs)
 
-###Work Plan
+##Work Plan
 Development of BLAZE will take place in the [Head Start](http://github.com/pkraker/Headstart) repository on Github. The concrete targets for developing the innovation will be published as Github issues on this repository. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
 ![Work Plan](images/work-plan.jpg "Work Plan Diagram")
+
+##Architecture
+### Papers: Data Aggregation & Metadata
+
+**Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as sckott's [R ropensci fulltext library](https://github.com/ropensci/fulltext).
+
+**URL:** https://api.archivelab.org/scholar
+
+**Stack:** Python, Flask, Postgres, SQLAlchemy, R
+
+**Github:** https://github.com/ArchiveLabs/scholar.archivelab.org
+
+### BLAZE Backend + Database
+
+**Description:** A REST API to a database of user accounts, preferences, and curated topic maps
+
+**URL:** https://api.openknowledgemaps.org
+
+**Stack:** PHP, MySQL
+
+**Github:** https://github.com/pkraker/BlazeServer (to be created)
+
+### BLAZE Frontend
+
+**Description:** A standalone, serverless SPA (single page app)
+
+**URL:** https://openknowledgemaps.org
+
+**Stack:** React, D3.js, JQuery
+
+**Github:** https://github.com/pkraker/Blaze (to be created)
 
 
 ##Licensing
 The code will be made available on Github under the license of the current project (LGPL v3). The visualizations will be released under CC-BY 4.0 with the exception of the contained content which of course retains its original copyright.
-
-
