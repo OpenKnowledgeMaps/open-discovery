@@ -1,40 +1,34 @@
-# Architecture
+#Architecture
+## Content & Metadata Aggregation
 
-The following is an architectural proposal for the Blaze Open Knowledge Map application:
+**Description:** A JSON REST API or Graphql endpoint which wraps various content and metadata sources, such as Scott's [rOpenSci fulltext library](https://github.com/ropensci/fulltext).
 
-## Papers: Data Aggregation & Metadata
+**URL:** https://api.archivelab.org/scholar
 
-**desc:** A json rest api or graphql endpoint which wraps various data sources, such as sckott's [R ropensci fulltext library](https://github.com/ropensci/fulltext).
+**Stack:** Python, Flask, Postgres, SQLAlchemy, R
 
-**url:** https://api.archivelab.org/scholar
+**Github:** https://github.com/ArchiveLabs/scholar.archivelab.org
 
-**stack:** python, flask, postgres, sqlalchemy, R,
+## BLAZE Backend + Database
 
-**github:** https://github.com/ArchiveLabs/scholar.archivelab.org
+**Description:** A REST API to a database of user accounts, preferences, and curated topic maps
 
-**spec:** pending approval
+**URL:** https://api.openknowledgemaps.org
 
+**Stack:** PHP, MySQL
 
-## OKM Backend + Database
+**Github:** https://github.com/pkraker/BlazeServer (to be created)
 
-**desc:** A REST API to a database of user accounts, preferences, and curated topic maps
+## BLAZE Frontend
 
-**url:** https://api.openknowledgemaps.org
+**Description:** A standalone, serverless SPA (single page app)
 
-**stack:** php, mysql
+**URL:** https://openknowledgemaps.org
 
-**github:** https://github.com/pkraker/HeadstartServer (to be created)
+**Stack:** React, D3.js, JQuery
 
-**spec:** pending approval
+**Github:** https://github.com/pkraker/Blaze (to be created)
 
-
-## Front-end
-
-**desc:** a standalone, serverless SPA (single page app)
-
-**url:** https://openknowledgemap.org
-
-**stack:** react, d3, jquery
 
 **github:** https://github.com/pkraker/Headstart
 
