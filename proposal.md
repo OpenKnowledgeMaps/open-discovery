@@ -70,9 +70,9 @@ In the first phase of the Open Science Price, we will extend both the backend an
 ####Expand Content Sources
 One of the primary objectives is to extend the existing prototype to incoporate further open content sources, including non-publication content. We use many software packages produced by [rOpenSci](http://ropensci.org), including the ability to search for scholarly content against the following engines:
 
-* Crossref (~78 million records)
-* Pubmed (~25 million records)
-* EuroPubmed (~30 million records)
+* Crossref
+* Pubmed
+* EuroPubmed
 
 In addition, we will query against pre-print services, including:
 
@@ -80,7 +80,9 @@ In addition, we will query against pre-print services, including:
 * Biorxiv
 * Peerj Preprints
 
-The rOpenSci text mining suite of packages allows retrieval of open access full text content via those search engines listed above. We will also use rOpenSci packages for search against repositories that expose various other types of resources (datasets, presentations, source code, media files...), including - but not limited to: 
+Emplyoing the rOpenSci text mining suite we will retrieve open access full text content via those search engines listed above.
+
+We will also use rOpenSci packages for search against repositories that expose various other types of resources (datasets, presentations, source code, media files...), including - but not limited to: 
 
 * Figshare
 * Dryad
@@ -123,7 +125,7 @@ To unleash the full potential of BLAZE, one of the primary goals during phase on
 We will also add integration with existing tools in the open digital ecosystem, including the [Open Science Framework](https://osf.io/), [Zotero](https://www.zotero.org/), and [ORCID](http://orcid.org/), so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
 
 ##Architecture
-### Papers: Data Aggregation & Metadata
+### Data Aggregation & Metadata
 
 **Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as Scott's [rOpenSci fulltext library](https://github.com/ropensci/fulltext).
 
