@@ -70,14 +70,13 @@ One of the primary objectives is to extend BLAZE to include further open content
 
 ####Improving Topic Detection and Similarity Analysis
 
-Another objetive is to improve the automatic creation of maps. We plan to utilize a novel multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g., structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g., MESH terms), be of different modalities (e.g., images), and form networks (e.g., citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual only topic models. 
+Another objetive is to improve the automatic creation of maps. We plan to utilize a novel multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information, and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g. structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g. MESH terms), be of different modalities (e.g. images), and form networks (e.g. citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual only topic models. 
 The intuition behind topic modeling is that a single document is on multiple "topics" in different proportions.
 
-A topic is defined as a probability distribution over a fixed vocabulary (terms). A document is modeled as a probability distribution over topics. Inferred topics can be utilized as features on additional data mining tasks (e.g., clustering, classification, trend or similarity analysis). In our case, we plan to utilize proposed engine to:
+A topic is defined as a probability distribution over a fixed vocabulary (terms). A document is modeled as a probability distribution over topics. Inferred topics can be utilized as features on additional data mining tasks (e.g. clustering, classification, trend or similarity analysis). Proposed MV-PTM engine has already been used in real world applications, e.g., evaluation of EU-funded projects or publication policy making, on top of real world massive datasets, i.e., ACM corpus and open access PubMed. In our case, we plan to utilize proposed engine to:
 
 1. Identify relevant content: Based on MV-PTM we will  enhance similarity analysis and relevant content identification. Thus, we will be able to support topic based search or search by example (specifying one or more publications. 
 2. Eliminate “duplicate” research areas: Human-based annotation and clustering in such "huge" research spaces may lead to duplicate entries on the map. We will utilize MV-PTM to identify overlapping research areas or clusters. 
-Proposed MV-PTM engine has already been used in real world applications, e.g., evaluation of EU-funded projects or publication policy making, on top of real world massive datasets, i.e., ACM corpus and open access PubMed.
 
 ####Map Extensions
 We will extend the map visualization to enable highlighting of contextual facts and to create additional links between the papers. For example, a researcher might want to highlight all papers that contain the same species, focus on recently published material, or view the citation links between papers. Researchers might also want to cluster the resources based on a metric other than keyword similarity, like readership, type of content (i.e. paper, data set, presentation, etc.) or funding source. All of this will be enabled through the interactive BLAZE frontend interface.
@@ -85,10 +84,10 @@ We will extend the map visualization to enable highlighting of contextual facts 
 ####Map Editing and Sharing
 To unleash the full potential of BLAZE, one of the primary goals during phase one of the Open Science Prize is to enable editing and sharing of knowledge maps. This will also require adaptations to the backend database operations and the frontend user interaction. On the front end, we will enable an edit mode that allows researchers to manually add content to the map, modify or add metadata to content, like tags, and create new clusters. The editing history will be preserved in a Wikipedia-like model to allow collaborative building of knowledge maps. The maps themselves will be saved at [Open Knowledge Maps](http://openknowledgemaps.org/mozfest) where they can me browsed by other researchers and can serve as a starting point for other researchers' exploration. 
 
-We will also add integration with existing tools in the open digital ecosystem, including osf.io, Zotero, and ORCID, so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
+We will also add integration with existing tools in the open digital ecosystem, including the [Open Science Framework](https://osf.io/), [Zotero](https://www.zotero.org/), and [ORCID](http://orcid.org/), so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
 
 ##Data Sources
-As stated above, we use R in the backend to access open content on the web. We use many software packages produced by rOpenSci, including the ability to search for scholarly content against the following engines (with wide diversity of journals):
+As stated above, we use R in the backend to access open content on the web. We use many software packages produced by [rOpenSci](http://ropensci.org), including the ability to search for scholarly content against the following engines (with wide diversity of journals):
 
 * Crossref (~78 million records)
 * Pubmed (~25 million records)
@@ -131,7 +130,7 @@ Development of BLAZE will take place in the [Head Start](http://github.com/pkrak
 ##Architecture
 ### Papers: Data Aggregation & Metadata
 
-**Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as sckott's [R ropensci fulltext library](https://github.com/ropensci/fulltext).
+**Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as Scott's [R ropensci fulltext library](https://github.com/ropensci/fulltext).
 
 **URL:** https://api.archivelab.org/scholar
 
