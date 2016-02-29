@@ -163,9 +163,7 @@ We will also add integration with existing tools in the open digital ecosystem, 
 ##Work Plan
 Development of BLAZE will take place on Github in the repositories outlined above. The concrete targets for developing the innovation will be published as Github issues in these repositories. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
 
-![Work Plan](images/work-plan_color.png)
-
-&nbsp;
+![Work Plan](images/work-plan_color.png)  
 
 The development schedule is shown in the timeline below:
 
