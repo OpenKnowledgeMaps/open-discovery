@@ -11,9 +11,9 @@ Peter Kraker, Mike Skaug, Scott Chamberlain, Maxi Schramm, Michael Karpeles, Omi
 
 Discovery is an essential task for every researcher, especially in dynamic research fields such as biomedicine. Currently, however, there are very few discover tools that can be used by a mainstream audience, most notably search engines. The problem with search engines is that they present resources in a linear, one-dimensional way, making it necessary to sift through every item in a list. Another problem is that the results of the traditional discovery process are usually closed. Therefore, the discovery process is repeated over and over again by different researchers, taking away valuable time and resources from the actual research. To solve these challenges and bring the discovery process into the open science era, we propose BLAZE, the comprehensive open science discovery tool. BLAZE will leverage the existing open science ecosystem to provide multi-dimensional topical maps of research fields, involving not only publications, but also datasets, presentations, source code and media files. BLAZE will provide a single, intuitive interface for researchers to explore, edit and share maps. The edit history of a map will be preserved to allow Wikipedia style collaboration. The maps themselves will be open, so users can embed them on their own websites and export the structure into other open science tools. Opening the discovery process will enable researchers to reuse maps, saving valuable time and effort because they can build on top of each other’s work. Furthermore, they will be able identify collaborators long before the research is usually communicated. There is an existing, early-stage protoype for BLAZE and with the Open Science Prize, we plan to develop this prototype into a comprehensive tool. BLAZE will show the enormous potential of open science for innovation in scholarly communication by providing a structured, open and multi-dimensional approach to discovery.
 
-*Open science, all the way - the proposal and the supplementary files are hosted on Github: [http://github.com/pkraker/open-discovery](http://github.com/pkraker/open-discovery)*  
+*Open science, all the way - the proposal and the supplementary files are hosted on Github: [http://github.com/pkraker/open-discovery](http://github.com/pkraker/open-discovery)*
 
-&nbsp;
+<img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width=100>
 
 ##Motivation
 Discovery is an essential task for every researcher, especially in dynamic research fields such as biomedicine. For example, researchers often need to get an overview of a research field (e.g. at the beginning of their PhD, or later on when venturing in a neighbouring field) or a certain topic (e.g. when writing the state-of-the-art for a project proposal).
@@ -158,10 +158,16 @@ We will also add integration with existing tools in the open digital ecosystem, 
 
 ##Work Plan
 Development of BLAZE will take place on Github in the repositories outlined above. The concrete targets for developing the innovation will be published as Github issues in these repositories. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
-![Work Plan](images/work-plan-new.png "Work Plan Diagram")
+
+<div style="text-align:center">
+<img src="images/work-plan-new.png" width=600>
+</div>
 
 The development schedule is shown in the timeline below:
-![Development Timeline](images/gantt.png "Development Timeline")
+
+<div style="text-align:center">
+<img src="images/gantt.png" width=600>
+</div>
 
 ##Licensing
 The code will be made available on Github under the license of the existing prototype (LGPL v3). The visualizations will be released under CC-BY 4.0 - with the exception of the contained content, which of course retains its original license.
