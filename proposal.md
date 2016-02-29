@@ -99,8 +99,8 @@ This means that we will also need to develop a data model that incorporates hete
  
 Moreover, we will utilize OpenAIRE services to further annotate/enrich publications with additional side information:
 
+* References
 * MESH terms
-* Reference
 * pdbCodes
 * Funding (Grant) Info for NIH, Wellcome Trust, EU
 
@@ -108,13 +108,12 @@ The content will then be exposed via an API to the other components of BLAZE.
 
 ####Improving Topic Detection and Similarity Analysis
 
-Another objetive is to improve the automatic creation of maps. We plan to utilize a novel, multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information, and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g. structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g. MESH terms), be of different modalities (e.g. images), and form networks (e.g. citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual only topic models. 
-The intuition behind topic modeling is that a single document is on multiple "topics" in different proportions.
+Another objetive is to improve the automatic creation of maps. We plan to utilize a novel, multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information, and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g. structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g. MESH terms), be of different modalities (e.g. images), and form networks (e.g. citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual-only topic models. 
 
-A topic is defined as a probability distribution over a fixed vocabulary (terms). A document is modeled as a probability distribution over topics. Inferred topics can be utilized as features on additional data mining tasks (e.g. clustering, classification, trend or similarity analysis). Proposed MV-PTM engine has already been used in real world applications, e.g., evaluation of EU-funded projects or publication policy making, on top of real world massive datasets, i.e., ACM corpus and open access PubMed. In our case, we plan to utilize proposed engine to:
+Proposed MV-PTM engine has already been used in real world applications, e.g. evaluation of EU-funded projects or publication policy making, and on top of real world massive datasets, e.g. the ACM corpus and open access PubMed. In our case, we plan to utilize proposed engine to:
 
-1. Identify relevant content: Based on MV-PTM we will  enhance similarity analysis and relevant content identification. Thus, we will be able to support topic based search or search by example (specifying one or more publications). 
-2. Eliminate “duplicate” research areas: Human-based annotation and clustering in such "huge" research spaces may lead to duplicate entries on the map. We will utilize MV-PTM to identify overlapping research areas or clusters. 
+1. Identify relevant content: Based on MV-PTM we will enhance similarity analysis and relevant content identification. Thus, we will also be able to support topic-based search or search by example (specifying one or more publications). 
+2. Eliminate "duplicate" research areas: Human-based annotation and clustering in large research spaces may lead to duplicate entries on the map. We will utilize MV-PTM to identify overlapping research areas or clusters. 
 
 ####Map Extensions
 We will extend the map visualization to enable highlighting of contextual facts and to create additional links between the papers. For example, a researcher might want to highlight all papers that contain the same species, focus on recently published material, or view the citation links between papers. Researchers might also want to cluster the resources based on a metric other than keyword similarity, like readership, type of content (i.e. paper, data set, presentation, etc.) or funding source. All of this will be enabled through the interactive BLAZE frontend interface.
