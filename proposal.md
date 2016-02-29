@@ -125,7 +125,7 @@ We will annotate/enrich publications with:
 
 ##Work Plan
 Development of BLAZE will take place in the [Head Start](http://github.com/pkraker/Headstart) repository on Github. The concrete targets for developing the innovation will be published as Github issues on this repository. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
-![Work Plan](images/work-plan.jpg "Work Plan Diagram")
+![Work Plan](images/work-plan-new.png "Work Plan Diagram")
 
 ##Architecture
 ### Papers: Data Aggregation & Metadata
