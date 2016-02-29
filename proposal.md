@@ -129,6 +129,9 @@ We will annotate/enrich publications with:
 Development of BLAZE will take place in the [Head Start](http://github.com/pkraker/Headstart) repository on Github. The concrete targets for developing the innovation will be published as Github issues on this repository. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
 ![Work Plan](images/work-plan-new.png "Work Plan Diagram")
 
+The development schedule is shown in the timeline below:
+![Development Timeline](images/gantt.png "Development Timeline")
+
 ##Architecture
 ### Papers: Data Aggregation & Metadata
 
