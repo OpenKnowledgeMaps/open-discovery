@@ -1,8 +1,12 @@
 ![Blaze Logo](images/logo-blaze.png "Blaze Logo")
 
+&nbsp;
+
 #BLAZE: The Comprehensive Open Science Discovery Tool
 
 ###Case for Support for the Open Science Prize
+
+&nbsp;
 
 #####Team "Open Discovery":
 Peter Kraker, Mike Skaug, Scott Chamberlain, Maxi Schramm, Michael Karpeles, Omiros Metaxas, Asura Enkhbayar & Björn Brembs
@@ -15,11 +19,11 @@ Discovery is an essential task for every researcher, especially in dynamic resea
 
 &nbsp;
 
-&nbsp;
-
 <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width=100>
 
 *Open science, all the way - the proposal and the supplementary files are hosted on Github: [http://github.com/pkraker/open-discovery](http://github.com/pkraker/open-discovery)*
+
+&nbsp;
 
 &nbsp;
 
