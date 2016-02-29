@@ -75,7 +75,7 @@ The intuition behind topic modeling is that a single document is on multiple "to
 
 A topic is defined as a probability distribution over a fixed vocabulary (terms). A document is modeled as a probability distribution over topics. Inferred topics can be utilized as features on additional data mining tasks (e.g. clustering, classification, trend or similarity analysis). Proposed MV-PTM engine has already been used in real world applications, e.g., evaluation of EU-funded projects or publication policy making, on top of real world massive datasets, i.e., ACM corpus and open access PubMed. In our case, we plan to utilize proposed engine to:
 
-1. Identify relevant content: Based on MV-PTM we will  enhance similarity analysis and relevant content identification. Thus, we will be able to support topic based search or search by example (specifying one or more publications. 
+1. Identify relevant content: Based on MV-PTM we will  enhance similarity analysis and relevant content identification. Thus, we will be able to support topic based search or search by example (specifying one or more publications). 
 2. Eliminate “duplicate” research areas: Human-based annotation and clustering in such "huge" research spaces may lead to duplicate entries on the map. We will utilize MV-PTM to identify overlapping research areas or clusters. 
 
 ####Map Extensions
