@@ -4,6 +4,8 @@
 
 #BLAZE: The Comprehensive Open Science Discovery Tool
 
+&nbsp;
+
 ###Case for Support for the Open Science Prize
 
 &nbsp;
@@ -22,8 +24,6 @@ Discovery is an essential task for every researcher, especially in dynamic resea
 <img src="http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" width=100>
 
 *Open science, all the way - the proposal and the supplementary files are hosted on Github: [http://github.com/pkraker/open-discovery](http://github.com/pkraker/open-discovery)*
-
-&nbsp;
 
 &nbsp;
 
@@ -171,7 +171,9 @@ We will also add integration with existing tools in the open digital ecosystem, 
 ##Work Plan
 Development of BLAZE will take place on Github in the repositories outlined above. The concrete targets for developing the innovation will be published as Github issues in these repositories. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
 
-![Work Plan](images/work-plan_color.png)  
+![Work Plan](images/work-plan_color.png)
+
+&nbsp;
 
 The development schedule is shown in the timeline below:
 
