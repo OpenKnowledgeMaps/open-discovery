@@ -130,9 +130,9 @@ To unleash the full potential of BLAZE, one of the primary goals during phase on
 We will also add integration with existing tools in the open digital ecosystem, including the [Open Science Framework](https://osf.io/), [Zotero](https://www.zotero.org/), and [ORCID](http://orcid.org/), so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
 
 ##Architecture
-### Data Aggregation & Metadata
+### Content & Metadata Aggregation
 
-**Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as Scott's [rOpenSci fulltext library](https://github.com/ropensci/fulltext).
+**Description:** A JSON REST API or Graphql endpoint which wraps various content and metadata sources, such as Scott's [rOpenSci fulltext library](https://github.com/ropensci/fulltext).
 
 **URL:** https://api.archivelab.org/scholar
 
@@ -163,15 +163,13 @@ We will also add integration with existing tools in the open digital ecosystem, 
 ##Work Plan
 Development of BLAZE will take place on Github in the repositories outlined above. The concrete targets for developing the innovation will be published as Github issues in these repositories. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
 
-<div style="text-align:center">
-<img src="images/work-plan-new.png" width=600>
-</div>
+![Work Plan](images/work-plan_color.png)
+
+&nbsp;
 
 The development schedule is shown in the timeline below:
 
-<div style="text-align:center">
-<img src="images/gantt.png" width=600>
-</div>
+![Development Schedule](images/gantt-color.png)
 
 ##Licensing
 The code will be made available on Github under the license of the existing prototype (LGPL v3). The visualizations will be released under CC-BY 4.0 - with the exception of the contained content, which of course retains its original license.
