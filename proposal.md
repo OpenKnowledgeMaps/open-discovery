@@ -74,21 +74,19 @@ One of the primary objectives is to extend the existing prototype to incoporate 
 * Pubmed (~25 million records)
 * EuroPubmed (~30 million records)
 
-In addition, we can query against pre-print services, including:
+In addition, we will query against pre-print services, including:
 
 * arXiv
 * Biorxiv
 * Peerj Preprints
 
-The rOpenSci text mining suite of packages allows retrieval of open access full text content via those search engines listed above. 
-
-rOpenSci packages also allow for search against repositories that expose various other types of resources (datasets, presentations, source code, media files...), including - but not limited to: 
+The rOpenSci text mining suite of packages allows retrieval of open access full text content via those search engines listed above. We will also use rOpenSci packages for search against repositories that expose various other types of resources (datasets, presentations, source code, media files...), including - but not limited to: 
 
 * Figshare
 * Dryad
 * DataONE
 
-The first step will be to develop a data model that incorporates heterogenous data sources. Part of this will involve adding connector(s) to altmetrics APIs through rOpenSci to provide additional context for each resource. Using the [rAltmetric](http://ropensci.github.io/rAltmetric/) and [alm](https://ropensci.org/tutorials/alm_tutorial.html) packages, we will retrieve altmetrics data from the following resources:
+This means that we will also need to develop a data model that incorporates heterogenous data sources. Part of this will involve adding connector(s) to altmetrics APIs through rOpenSci to provide additional context for each resource. Using the [rAltmetric](http://ropensci.github.io/rAltmetric/) and [alm](https://ropensci.org/tutorials/alm_tutorial.html) packages, we will retrieve altmetrics data from the following resources:
 
 * Altmetric.com
 * PLOS
@@ -99,10 +97,10 @@ The first step will be to develop a data model that incorporates heterogenous da
  
 Moreover, we will utilize OpenAIRE services to further annotate/enrich publications with additional side information:
 
-* MESH terms (for PubMED pubs utilizing their API)
-* References (for PubMED pubs utilizing their API)
-* pdbCodes (fulltext analysis using OpenAIRE API)
-* Funding (Grant) Info for WT, EU, NIH (fulltext analysis using the OpenAIRE and Crossref APIs)
+* MESH terms
+* Reference
+* pdbCodes
+* Funding (Grant) Info for NIH, Wellcome Trust, EU
 
 The content will then be exposed via an API to the other components of BLAZE.
 
