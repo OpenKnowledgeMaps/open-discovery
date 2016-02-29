@@ -4,7 +4,7 @@
 
 ###Case for Support for the Open Science Prize
 
-####Team "Open Discovery":
+#####Team "Open Discovery":
 Peter Kraker, Mike Skaug, Scott Chamberlain, Maxi Schramm, Michael Karpeles, Omiros Metaxas, Asura Enkhbayar & Björn Brembs
 
 ####Executive Summary
@@ -72,7 +72,7 @@ One of the primary objectives is to extend BLAZE to include further open content
 
 ####Improving Topic Detection and Similarity Analysis
 
-Another objetive is to improve the automatic creation of maps. We plan to utilize a novel multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information, and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g. structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g. MESH terms), be of different modalities (e.g. images), and form networks (e.g. citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual only topic models. 
+Another objetive is to improve the automatic creation of maps. We plan to utilize a novel, multi-view probabilistic topic modeling (MV-PTM) engine that jointly analyzes massive collections of documents and related side information, and identifies hidden themes (topics) that characterize them. Side information ("views") may be of different kinds (e.g. structured or unstructured attributes and metadata), have hierarchies or taxonomies (e.g. MESH terms), be of different modalities (e.g. images), and form networks (e.g. citations). Multiple views can help to explain each other and the discovered multi-view topics are more coherent and interpretable, uncovering concepts not resolved by traditional, textual only topic models. 
 The intuition behind topic modeling is that a single document is on multiple "topics" in different proportions.
 
 A topic is defined as a probability distribution over a fixed vocabulary (terms). A document is modeled as a probability distribution over topics. Inferred topics can be utilized as features on additional data mining tasks (e.g. clustering, classification, trend or similarity analysis). Proposed MV-PTM engine has already been used in real world applications, e.g., evaluation of EU-funded projects or publication policy making, on top of real world massive datasets, i.e., ACM corpus and open access PubMed. In our case, we plan to utilize proposed engine to:
@@ -89,7 +89,7 @@ To unleash the full potential of BLAZE, one of the primary goals during phase on
 We will also add integration with existing tools in the open digital ecosystem, including the [Open Science Framework](https://osf.io/), [Zotero](https://www.zotero.org/), and [ORCID](http://orcid.org/), so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
 
 ##Data Sources
-As stated above, we use R in the backend to access open content on the web. We use many software packages produced by [rOpenSci](http://ropensci.org), including the ability to search for scholarly content against the following engines (with wide diversity of journals):
+As stated above, we use R in the backend to access open content on the web. We use many software packages produced by [rOpenSci](http://ropensci.org), including the ability to search for scholarly content against the following engines:
 
 * Crossref (~78 million records)
 * Pubmed (~25 million records)
@@ -109,7 +109,7 @@ rOpenSci packages also allow for search against repositories that expose various
 * Dryad
 * DataONE
 
-Using the rAltmetric and alm packages, we will retrieve altmetrics data from the following resources:
+Using the [rAltmetric](http://ropensci.github.io/rAltmetric/) and [alm](https://ropensci.org/tutorials/alm_tutorial.html) packages, we will retrieve altmetrics data from the following resources:
 
 * Altmetric.com
 * PLOS
@@ -135,7 +135,7 @@ The development schedule is shown in the timeline below:
 ##Architecture
 ### Papers: Data Aggregation & Metadata
 
-**Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as Scott's [R ropensci fulltext library](https://github.com/ropensci/fulltext).
+**Description:** A JSON REST API or Graphql endpoint which wraps various data sources, such as Scott's [rOpenSci fulltext library](https://github.com/ropensci/fulltext).
 
 **URL:** https://api.archivelab.org/scholar
 
@@ -165,4 +165,4 @@ The development schedule is shown in the timeline below:
 
 
 ##Licensing
-The code will be made available on Github under the license of the current project (LGPL v3). The visualizations will be released under CC-BY 4.0 with the exception of the contained content which of course retains its original copyright.
+The code will be made available on Github under the license of the existing prototype (LGPL v3). The visualizations will be released under CC-BY 4.0 - with the exception of the contained content, which of course retains its original license.
