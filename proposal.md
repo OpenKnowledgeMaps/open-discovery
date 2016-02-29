@@ -68,7 +68,43 @@ The backend of the visualization is written in PHP and R. A preprocessing compon
 In the first phase of the Open Science Price, we will extend both the backend and the frontend of the existing early-stage prototype. 
 
 ####Expand Content Sources
-One of the primary objectives is to extend BLAZE to include further open content sources, including non-publication content, that are supported by rOpenSci (for a complete list of content sources see [Data Sources](#data-sources)). The first step will be to develop a data model that incorporates heterogenous data sources. Part of this will involve adding connector(s) to altmetrics APIs through rOpenSci to provide additional context for each resource. Moreover, we will utilize OpenAIRE services to further annotate publications with additional side information including MESH terms (based on PubMED API), PDBCodes and funding information (based on full text analysis). The content will then be exposed via an API to the other components of BLAZE.
+One of the primary objectives is to extend the existing prototype to incoporate further open content sources, including non-publication content. We use many software packages produced by [rOpenSci](http://ropensci.org), including the ability to search for scholarly content against the following engines:
+
+* Crossref (~78 million records)
+* Pubmed (~25 million records)
+* EuroPubmed (~30 million records)
+
+In addition, we can query against pre-print services, including:
+
+* arXiv
+* Biorxiv
+* Peerj Preprints
+
+The rOpenSci text mining suite of packages allows retrieval of open access full text content via those search engines listed above. 
+
+rOpenSci packages also allow for search against repositories that expose various other types of resources (datasets, presentations, source code, media files...), including - but not limited to: 
+
+* Figshare
+* Dryad
+* DataONE
+
+The first step will be to develop a data model that incorporates heterogenous data sources. Part of this will involve adding connector(s) to altmetrics APIs through rOpenSci to provide additional context for each resource. Using the [rAltmetric](http://ropensci.github.io/rAltmetric/) and [alm](https://ropensci.org/tutorials/alm_tutorial.html) packages, we will retrieve altmetrics data from the following resources:
+
+* Altmetric.com
+* PLOS
+* Crossref
+* eLife
+* PKP
+* Pensoft
+ 
+Moreover, we will utilize OpenAIRE services to further annotate/enrich publications with additional side information:
+
+* MESH terms (for PubMED pubs utilizing their API)
+* References (for PubMED pubs utilizing their API)
+* pdbCodes (fulltext analysis using OpenAIRE API)
+* Funding (Grant) Info for WT, EU, NIH (fulltext analysis using the OpenAIRE and Crossref APIs)
+
+The content will then be exposed via an API to the other components of BLAZE.
 
 ####Improving Topic Detection and Similarity Analysis
 
@@ -87,50 +123,6 @@ We will extend the map visualization to enable highlighting of contextual facts 
 To unleash the full potential of BLAZE, one of the primary goals during phase one of the Open Science Prize is to enable editing and sharing of knowledge maps. This will also require adaptations to the backend database operations and the frontend user interaction. On the front end, we will enable an edit mode that allows researchers to manually add content to the map, modify or add metadata to content, like tags, and create new clusters. The editing history will be preserved in a Wikipedia-like model to allow collaborative building of knowledge maps. The maps themselves will be saved at [Open Knowledge Maps](http://openknowledgemaps.org/mozfest) where they can me browsed by other researchers and can serve as a starting point for other researchers' exploration. 
 
 We will also add integration with existing tools in the open digital ecosystem, including the [Open Science Framework](https://osf.io/), [Zotero](https://www.zotero.org/), and [ORCID](http://orcid.org/), so that BLAZE will fit seemlessly into researchers' current workflows. BLAZE strives to be completely open, so we will also add functionality to export the map and the underlying data in various open formats, so that, for example, a researcher could embed a map on her personal website.
-
-##Data Sources
-As stated above, we use R in the backend to access open content on the web. We use many software packages produced by [rOpenSci](http://ropensci.org), including the ability to search for scholarly content against the following engines:
-
-* Crossref (~78 million records)
-* Pubmed (~25 million records)
-* EuroPubmed (~30 million records)
-
-In addition, we can query against pre-print services, including:
-
-* arXiv
-* Biorxiv
-* Peerj Preprints. 
- 
-The rOpenSci text mining suite of packages allows retrieval of open access full text content via those search engines listed above. 
-
-rOpenSci packages also allow for search against repositories that expose various other types of resources (datasets, presentations, source code, project proposals and media files), including - but not limited to: 
-
-* Figshare
-* Dryad
-* DataONE
-
-Using the [rAltmetric](http://ropensci.github.io/rAltmetric/) and [alm](https://ropensci.org/tutorials/alm_tutorial.html) packages, we will retrieve altmetrics data from the following resources:
-
-* Altmetric.com
-* PLOS
-* Crossref
-* eLife
-* PKP
-* Pensoft
-
-We will annotate/enrich publications with:
-
-* MESH terms (for PubMED pubs utilizing their API)
-* References (for PubMED pubs utilizing their API)
-* pdbCodes (fulltext analysis using OpenAIRE API)
-* Funding (Grant) Info for WT, EU, NIH (fulltext analysis using the OpenAIRE and Crossref APIs)
-
-##Work Plan
-Development of BLAZE will take place in the [Head Start](http://github.com/pkraker/Headstart) repository on Github. The concrete targets for developing the innovation will be published as Github issues on this repository. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
-![Work Plan](images/work-plan-new.png "Work Plan Diagram")
-
-The development schedule is shown in the timeline below:
-![Development Timeline](images/gantt.png "Development Timeline")
 
 ##Architecture
 ### Papers: Data Aggregation & Metadata
@@ -163,6 +155,12 @@ The development schedule is shown in the timeline below:
 
 **Github:** https://github.com/pkraker/Blaze (to be created)
 
+##Work Plan
+Development of BLAZE will take place on Github in the repositories outlined above. The concrete targets for developing the innovation will be published as Github issues in these repositories. A summary of the major work components is illustrated below, along with each team member's area of primary contribution.
+![Work Plan](images/work-plan-new.png "Work Plan Diagram")
+
+The development schedule is shown in the timeline below:
+![Development Timeline](images/gantt.png "Development Timeline")
 
 ##Licensing
 The code will be made available on Github under the license of the existing prototype (LGPL v3). The visualizations will be released under CC-BY 4.0 - with the exception of the contained content, which of course retains its original license.
