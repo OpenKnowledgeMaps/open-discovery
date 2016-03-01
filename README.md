@@ -1,6 +1,8 @@
 # open-discovery
 This repository is intended to openly develop a proposal for the [Open Science Prize](https://www.openscienceprize.org/).
 
+[![Blaze Video](images/video_screenshot.png)](https://vimeo.com/157215786)
+
 ## Executive Summary
 Discovery is an essential task for every researcher, especially in dynamic research fields such as biomedicine. Currently, however, there are very few discover tools that can be used by a mainstream audience, most notably search engines. The problem with search engines is that they present resources in a linear, one-dimensional way, making it necessary to sift through every item in a list. Another problem is that the results of the traditional discovery process are usually closed. Therefore, the discovery process is repeated over and over again by different researchers, taking away valuable time and resources from the actual research. 
 
