@@ -10,7 +10,7 @@ Version: 2.0 beta (Update 2017)
 
 Open Knowledge Maps is an attempt to solve these challenges by providing an open exploration and discovery system that leverages the emerging digital open science ecosystem. We propose to use knowledge maps, a powerful tool for exploration and discovery. **Knowledge maps provide an instant overview of a field by showing the main areas of the field at a glance, and papers related to each area** (see the example map below). This makes it possible to easily identify useful, pertinent information.
 
-![](images/example_map.png)
+![](images/examplemap.png)
 
 ## Vision
 
