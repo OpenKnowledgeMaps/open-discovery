@@ -96,3 +96,30 @@ Open Knowledge Maps has the following branches (see Figure 2 below):
 (4) The community, with our users (including the enthusiasts), partners, and networks.
 
 ![](images/governance.png)
+Figure 2: The Open Knowledge Maps governance structure.
+
+The Executive Board is responsible for the management of the organization and the team. Together with the Executive Board, the team carries out the work to realize the purpose of the organization.
+
+The Executive Board has two advisory councils: the Advisory Board and the Board of Supporters. The members of the advisory board advise the Executive Board on organisational and technical development and the means for achieving the purpose of the organisation. The Advisory Board is designed to represent the diversity of stakeholders of the organisation, including users, partners, advocates and so on. Advisors are appointed for one year by the Executive Board; the appointment can be renewed.
+
+The Board of Supporters consists of the supporting members. Depending on the extent of the membership fee, a supporting member can appoint up to three representatives to the [Board of Supporters](https://openknowledgemaps.org/supporting-membership). The Board of Supporters gives input to the technical roadmap and is involved in the decision making process regarding the technical roadmap in a yearly voting. The vote of the Board of Supporters is weighted 1/3 towards the composition of the  final roadmap. The other two thirds are decided by the wider Open Knowledge Maps community in a community voting (weighting: 1/3) and a voting by the Open Knowledge Maps team and executive board (weighting: 1/3).
+
+The auditors are responsible for auditing the financial management of the association with regard to the regularity of accounting and the use of funds in accordance with the bylaws of the organization. For the arbitration of all disputes arising within the association, the arbitration tribunal of the association is called. It is a "mediation facility" according to Austrian law (Vereinsgesetz 2002).
+
+
+# Open Knowledge Maps as part of an open discovery infrastructure
+
+**Discovery is a space that has traditionally been dominated by commercial players** (Elsevier, Clarivate, Google), and with more resources becoming available thanks to Open Science, they have recently increased their activity in this area. In the past two years alone, we have seen the market entrance of Springer with Digital Science Dimensions, as well as the launch of Google Dataset Search and Elsevier DataSearch Beta 2.
+
+**Commercial infrastructures have, however, demonstrated a stronger emphasis on reaching market dominance than on developing innovative services.** Their reliance on proprietary indices and list-based interfaces, and a lack of community-driven development has led to the current discoverability crisis (see also section 1). In addition, commercial infrastructures retain all governance over their systems, including user data and algorithms, and due to their proprietary nature lead to lock-in effects. Thankfully, **we can see an open discovery ecosystem emerging** (see Figure 3). But this system is still developing: in a recent analysis [Bianca Kramer and Jeroen Bosman](https://docs.google.com/spreadsheets/d/1h0Aq6NYIeVnLDw33vx1SGnv1jbE2B7widbHhU7tpiUw/edit#gid=2141288902) identified just three scholarly commons-compliant infrastructures in the area of discovery - Open Knowledge Maps being one of them.
+
+![](images/discovery-infrastructure.png)
+Figure 3: The open discovery infrastructure
+
+The open discovery system is still fragmented and in particular, it needs innovative, cross-disciplinary frontends and infrastructures that act as a catalyst for its development. Open Knowledge Maps does not seek to replace traditional search engines, but to complement their strengths. While search engines help users whose information need is clearly defined to access research outputs, Open Knowledge Maps provides discovery services that put single pieces of research into context, giving users with a more fuzzy information need multiple entry points into a topic. We also see ourselves complementary to the efforts of visualization tools such as VOSViewer or Scholia, which require expertise in creating and manipulating datasets. We therefore seek to create a useful workflow between all of these systems (see our collaborations with BASE, OpenAIRE and Scholia).
+
+We believe that we have what it takes to act as a catalyst for this infrastructure. Due to our broad use, we have the ability to increase the visibility of features and services developed by the rest of the open discovery infrastructure. Open Knowledge Maps already acts as a catalyst for source applications in BASE. We also collaborate with rOpenSci, who develop all of our data clients. These clients are then also available as standalone R packages. Thus, when Open Knowledge Maps grows, the data science community also benefits. We have also already integrated Hypothesis, and we are planning integrations of other services. We believe that in this way, we can best use the advantages of openness and jointly become a viable alternative to the proprietary infrastructure.
+
+We also provide a well-tested, user-facing open source service, thus bringing an innovative reusable interface to the open infrastructure. This is of huge value to our stakeholders, which can use our interface to provide better discoverability for their collections. This is exemplified by collaboration projects with the Austrian Academy of Sciences and the Ludwig Boltzmann Gesellschaft, an OpenAIRE tender project, and an upcoming EU project with OPERAS.
+
+In addition, we are strong advocates for the open discovery infrastructure. In the #DontLeaveItToGoogle campaign, we spread awareness for the need for an open discovery ecosystem and open infrastructures in general using tweets, blog posts, and invited talks. This has been met with a lot of interest: we have now reached about 100,000 people with this campaign, and already received invitations for follow-up pieces and talks.
