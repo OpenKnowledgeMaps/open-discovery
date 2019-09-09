@@ -1,8 +1,20 @@
 # Roadmap
 
-*by the [Open Knowledge Maps team](http://openknowledgemaps.org/team)*
-
+*by Peter Kraker, Maxi Schramm, Christopher Kittel and the [Open Knowledge Maps team](http://openknowledgemaps.org/team)*  
 Version: 3.0 beta (Update 2019)
+
+Table of Content
+
+1. [Motivation](#Motivation)
+1. [Introduction to Open Knowledge Maps](#Introduction-to-Open-Knowledge-Maps)
+  1. [Services](#Services)
+  1. [Software and infrastructure](#Software-and-infrastructure)
+  1. [Community Engagement](#Community-Engagement)
+  1. [Openness](#Openness)
+  1. [Sustainability](#Sustainability)
+  1. [Governance](#Governance)
+1. [Open Knowledge Maps as part of an open discovery infrastructure](#Open-Knowledge-Maps-as-part-of-an-open-discovery-infrastructure)
+1. [Workplan](#Workplan)
 
 # Motivation
 
@@ -113,7 +125,7 @@ The auditors are responsible for auditing the financial management of the associ
 
 **Commercial infrastructures have, however, demonstrated a stronger emphasis on reaching market dominance than on developing innovative services.** Their reliance on proprietary indices and list-based interfaces, and a lack of community-driven development has led to the current discoverability crisis (see also section 1). In addition, commercial infrastructures retain all governance over their systems, including user data and algorithms, and due to their proprietary nature lead to lock-in effects. Thankfully, **we can see an open discovery ecosystem emerging** (see Figure 3). But this system is still developing: in a recent analysis [Bianca Kramer and Jeroen Bosman](https://docs.google.com/spreadsheets/d/1h0Aq6NYIeVnLDw33vx1SGnv1jbE2B7widbHhU7tpiUw/edit#gid=2141288902) identified just three scholarly commons-compliant infrastructures in the area of discovery - Open Knowledge Maps being one of them.
 
-![](images/discovery-infrastructure.png)
+![](images/innovation-cycle.png)
 Figure 3: The open discovery infrastructure
 
 **The open discovery system is still fragmented and in particular, it needs innovative, cross-disciplinary frontends and infrastructures that act as a catalyst for its development. Open Knowledge Maps does not seek to replace traditional search engines, but to complement their strengths.** While search engines help users whose information need is clearly defined to access research outputs, Open Knowledge Maps provides discovery services that put single pieces of research into context, giving users with a more fuzzy information need multiple entry points into a topic. We also see ourselves complementary to the efforts of visualization tools such as VOSViewer or Scholia, which require expertise in creating and manipulating datasets. We therefore seek to create a useful workflow between all of these systems (see our collaborations with BASE, OpenAIRE and Scholia).
@@ -124,7 +136,7 @@ We believe that we have what it takes to act as a catalyst for this infrastructu
 
 **In addition, we are strong advocates for the open discovery infrastructure.** In the #DontLeaveItToGoogle campaign, we spread awareness for the need for an open discovery ecosystem and open infrastructures in general using tweets, blog posts, and invited talks. (See these blog posts for an overview of activities: https://science20.wordpress.com/2018/09/10/dontleaveittogoogle/ and https://science20.wordpress.com/2019/03/28/update-on-the-dontleaveittogoogle-campaign/) This has been met with a lot of interest: we have now reached about 100,000 people with this campaign, and already received invitations for follow-up pieces and talks.
 
-# Work Plan
+# Workplan
 
 Our work plan has three main pillars:  
 **(1) maintaining and developing our core services  
