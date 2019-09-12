@@ -3,20 +3,20 @@
 *by Peter Kraker, Maxi Schramm, Christopher Kittel and the [Open Knowledge Maps team](http://openknowledgemaps.org/team)*  
 Version: 3.0 beta (Update 2019)
 
-Table of Content
+#### Table of Content
 
-1. [Motivation](#Motivation)
-1. [Introduction to Open Knowledge Maps](#Introduction-to-Open-Knowledge-Maps)  
-  2.1 [Services](#Services)  
-  2.2 [Software and infrastructure](#Software-and-infrastructure)  
-  2.3 [Community Engagement](#Community-Engagement)  
-  2.4 [Openness](#Openness)  
-  2.5 [Sustainability](#Sustainability)  
-  2.6 [Governance](#Governance)
-1. [Open Knowledge Maps as part of an open discovery infrastructure](#Open-Knowledge-Maps-as-part-of-an-open-discovery-infrastructure)
-1. [Workplan](#Workplan)
+1. [Motivation](#1.-Motivation)
+1. [Introduction to Open Knowledge Maps](#2.-Introduction-to-Open-Knowledge-Maps)  
+  2.1 [Services](#2.1-Services)  
+  2.2 [Software and infrastructure](#2.2-Software-and-infrastructure)  
+  2.3 [Community Engagement](#2.3-Community-Engagement)  
+  2.4 [Openness](#2.4-Openness)  
+  2.5 [Sustainability](#2.5-Sustainability)  
+  2.6 [Governance](#2.6-Governance)
+1. [Open Knowledge Maps as part of an open discovery infrastructure](#3.-Open-Knowledge-Maps-as-part-of-an-open-discovery-infrastructure)
+1. [Workplan](#4.-Workplan)
 
-# Motivation
+# 1. Motivation
 
 **The open science revolution has dramatically increased the accessibility of scientific knowledge.** In 2015, 45% of research articles were published open access, with a clear upward trend ([Piwowar et al. 2017](https://peerj.com/articles/4375/)). In addition, we see a huge increase in open research data, which will mark the next wave of openly accessible outputs.
 
@@ -24,7 +24,7 @@ Table of Content
 
 These numbers highlight that accessibility does not equal discoverability and reuse of knowledge. **There is a discoverability crisis that negatively affects the efficiency and effectiveness of science and its transfer to practice** - and it cancels out many of the positive effects of increased accessibility. In many ways, we cannot cash the cheques written by the open science movement, when we do not address this issue.
 
-# Introduction to Open Knowledge Maps
+# 2. Introduction to Open Knowledge Maps
 
 **The goal of Open Knowledge Maps is to close the gap between accessibility and discoverability** of scientific knowledge. We are a charitable non-profit organization dedicated to dramatically increasing the visibility of scientific knowledge for science and society alike. Headquartered in Vienna, Austria, Open Knowledge Maps comprises of an international community including team members, advisors, and partner organizations.
 
@@ -34,7 +34,7 @@ As part of our mission, we operate the largest visual search engine for research
 
 In the future, we want to enable our users to collaboratively edit the knowledge maps on our platform, thus **transforming discovery from a closed individual process to an open and collaborative one.** By sharing the results of our discoveries, we can build on top of each other’s knowledge. This process will be aided by our artificial intelligence core and result in a large-scale system of open, interactive and interlinked knowledge maps for every research topic, every field and every discipline. **Users will be able to explore the entirety of scientific knowledge within this system.** In addition, we will provide the information generated in the OKMaps system back to the open discovery infrastructure, both the knowledge models as well as metadata improved or added by our users. Therefore, Open Knowledge Maps will be the only visual interface that combines machine learning with human curation, providing a truly human-centered service as a result. https://vimeo.com/188647919
 
-## Services
+## 2.1 Services
 **We dramatically increase the visibility of research outputs for science and society alike.** Our approach is to use knowledge maps for discovery. Knowledge maps provide an instant overview of a topic by showing the main areas at a glance with relevant papers and concepts attached to each area. Based on this concept, we operate the largest visual search engine for research in the world. On our website https://openknowledgemaps.org, users can create knowledge maps of research topics in any discipline (see Figure 1 for an example). Users can select between two integrations: BASE, the Bielefeld Academic Search Engine, which provides an index of more than 150 million scientific outputs, and PubMed, the large bibliographic database in the natural sciences with a focus on biomedicine.
 
 Our search service includes a wide variety of output types (21), including datasets and multimedia files, and many resources, especially from university repositories, that are not included in commercial search engines. In addition, we do not restrict language in searches, thus increasing the visibility of non-English content and making the service especially appealing to communities that communicate in a language other than English. We can already see that these efforts have paid off. **Open Knowledge Maps serves both users from the Global South and the Global North:** most of our page views are from users in Indonesia, followed by the US, India, Germany, Austria, the UK, China, Canada, and Australia. In fact, we are seeing some of the strongest growth in the Global South with countries like India (109,000 page views, a fivefold increase in 2018), South Africa (10.500 views and a threefold increase in 2018), or Nigeria (a fourfold increase to 10,000 page views in 2018).
@@ -46,7 +46,7 @@ Open Knowledge Maps supports a number of use cases, for which no comprehensive t
 
 Outside of open infrastructures, the need for systems providing visual overviews of scientific fields has also been identified. At the moment **Open Knowledge Maps is the only solution in this space that is free and open, and that is usable without prior knowledge.**
 
-## Software and infrastructure
+## 2.2 Software and infrastructure
 
 Open Knowledge Maps is based on the open source knowledge mapping framework Head Start. Head Start is a high-performance and high-availability software stack that is capable of automatically producing knowledge maps from a variety of data, including text, metadata, and references using unsupervised machine learning techniques.
 
@@ -67,7 +67,7 @@ We choose underlying technologies according to robustness and versatility rather
 The source code for the whole service is available under the open source MIT License on GitHub. In regular frequency we publish new releases of our software, which are available as open source packages and archived via Zenodo.
 
 
-## Community Engagement
+## 2.3 Community Engagement
 
 In the past years, **we have successfully established a wide array of user engagement activities**, including (1) talks and workshops at conferences, research institutions and libraries around the world, as well as via webinars, (2) engagement via our newsletter and on social media, (3) and our Enthusiasts program. These activities are aimed at our diverse stakeholder groups, involving different aspects of the discovery workflow. These aspects include both the reader’s and the author’s point of view (finding and getting found), as well as insights into the functioning of discovery tools and the discovery infrastructure in general.
 
@@ -75,12 +75,12 @@ In the past years, **we have successfully established a wide array of user engag
 
 In the [Enthusiasts program](https://openknowledgemaps.org/community) we involve Open Knowledge Maps power users and ambassadors in our engagement activities. Under our guidance, participants with diverse backgrounds from all around the world conduct workshops on open discovery and Open Knowledge Maps in their communities. In doing so, they collect valuable feedback on the future development of our services. These activities give us a unique opportunity to better understand our user groups and their specific needs, especially in regions and communities that we cannot reach, and thus **drive the Open Knowledge Maps development from a community perspective.**
 
-## Openness
+## 2.4 Openness
 
 Open Knowledge Maps is based on the principles of open science: source code, content and data are shared under an open license. We are a building block of the open discovery infrastructure, with which we extensively collaborate. As a community-driven initiative, we develop our services in a participatory process together with our stakeholders. Our aim is to create an inclusive, sustainable and equitable infrastructure that can be used by anyone, independent of geographic area, age, or stakeholder group. Therefore, we are also conducting workshops to introduce potential users to the tool and help improve their discovery skills along the way. In our community program, the Enthusiasts program, we support power users and ambassadors to conduct workshops themselves and to give feedback from their community’s perspective.
 
 
-## Sustainability
+## 2.5 Sustainability
 
 Our funding model consists of three main pillars:
 
@@ -97,7 +97,7 @@ Donations are our third pillar, and our smallest yet. In November/December 2018,
 **We know that increased openness does not automatically lead to a more equitable world.** It needs organizations and services that translate this openness in a way that everyone can benefit from it. Open Knowledge Maps is in a prime position to do so having developed a service and interface that can be understood across geographical borders, age groups and societal stakeholders. At this moment we need more funding to do that in a sustainable way.
 
 
-## Governance
+## 2.6 Governance
 
 Open Knowledge Maps’ structure is largely determined by the legal requirements for a “gemeinnütziger Verein” (charitable non-profit) under Austrian law (Vereinsgesetz 2002) and defined in the organization’s bylaws.
 
@@ -119,7 +119,7 @@ The Board of Supporters consists of the supporting members. Depending on the ext
 The auditors are responsible for auditing the financial management of the association with regard to the regularity of accounting and the use of funds in accordance with the bylaws of the organization. For the arbitration of all disputes arising within the association, the arbitration tribunal of the association is called. It is a "mediation facility" according to Austrian law (Vereinsgesetz 2002).
 
 
-# Open Knowledge Maps as part of an open discovery infrastructure
+# 3. Open Knowledge Maps as part of an open discovery infrastructure
 
 **Discovery is a space that has traditionally been dominated by commercial players** (Elsevier, Clarivate, Google), and with more resources becoming available thanks to Open Science, they have recently increased their activity in this area. In the past two years alone, we have seen the market entrance of Springer with Digital Science Dimensions, as well as the launch of Google Dataset Search and Elsevier DataSearch Beta 2.
 
@@ -136,7 +136,7 @@ We believe that we have what it takes to act as a catalyst for this infrastructu
 
 **In addition, we are strong advocates for the open discovery infrastructure.** In the #DontLeaveItToGoogle campaign, we spread awareness for the need for an open discovery ecosystem and open infrastructures in general using tweets, blog posts, and invited talks. (See these blog posts for an overview of activities: [#DontLeaveItToGoogle Campaign](https://science20.wordpress.com/2018/09/10/dontleaveittogoogle/) and [Update on the DontLeaveItToGoogle Campaign](https://science20.wordpress.com/2019/03/28/update-on-the-dontleaveittogoogle-campaign/)) This has been met with a lot of interest: we have now reached about 100,000 people with this campaign, and already received invitations for follow-up pieces and talks.
 
-# Workplan
+# 4. Workplan
 
 Our work plan has three main pillars:  
 **(1) maintaining and developing our core services  
