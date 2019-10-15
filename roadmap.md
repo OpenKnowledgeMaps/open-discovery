@@ -7,7 +7,7 @@ Version: 3.0 beta (Update 2019)
 
 1. [Motivation](#Motivation)
 1. [Introduction to Open Knowledge Maps](#Introduction-to-Open-Knowledge-Maps)  
-  2.1 [Services](#Services)  
+  2.1 [Services](#Discovery-services)  
   2.2 [Software and infrastructure](#Software-and-infrastructure)  
   2.3 [Community Engagement](#Community-Engagement)  
   2.4 [Openness](#Openness)  
@@ -30,7 +30,7 @@ These numbers highlight that accessibility does not equal discoverability and re
 
 **The goal of Open Knowledge Maps is to close the gap between accessibility and discoverability** of scientific knowledge. We are a charitable non-profit organization dedicated to dramatically increasing the visibility of scientific knowledge for science and society alike. Headquartered in Vienna, Austria, Open Knowledge Maps comprises of an international community including team members, advisors, and partner organizations.
 
-As part of our mission, we operate the largest visual search engine for research in the world. On our website, users can create knowledge maps of research topics in any discipline based on 150 million scientific outputs. These knowledge maps provide an instant overview of a topic by showing the main areas at a glance with relevant papers and concepts attached to each area. This service enables a diverse set of stakeholders to openly explore, discover, and make use of scientific content. Among our users are researchers, students, librarians, educators, science journalists and practitioners across all disciplines and geographic regions. Open Knowledge Maps increases the visibility of content from a wide variety of stakeholders such as libraries, repositories, funding organisations, and publishers.
+As part of our mission, we operate the largest visual search engine for research in the world. On our website, users can create knowledge maps of research topics in any discipline based on 150 million scientific outputs. Our services enable a diverse set of stakeholders to openly explore, discover, and make use of scientific content. Among our users are researchers, students, librarians, educators, science journalists and practitioners across all disciplines and geographic regions. Open Knowledge Maps increases the visibility of content from a wide variety of stakeholders such as libraries, repositories, funding organisations, and publishers.
 
 **Open Knowledge Maps was established in 2016, but it has already become a crucial infrastructure** for researchers, students and practitioners around the world. In the last 3 years, we have had more than half a million visits on the website, and more than 140,000 maps were created. In addition, we had more than 1,500 participants in our workshops worldwide. At the same time, we have been rapidly growing our platform and coverage to a stable and user-friendly service with high availability. We have also developed an agile organisation, a strong community, and professional outreach and training efforts.
 
@@ -38,13 +38,15 @@ In the future, we want to enable our users to collaboratively edit the knowledge
 
 [Back to top](#Table-of-Content)
 
-## Services
-**We dramatically increase the visibility of research outputs for science and society alike.** Our approach is to use knowledge maps for discovery. Knowledge maps provide an instant overview of a topic by showing the main areas at a glance with relevant papers and concepts attached to each area. Based on this concept, we operate the largest visual search engine for research in the world. On our website https://openknowledgemaps.org, users can create knowledge maps of research topics in any discipline (see Figure 1 for an example). Users can select between two integrations: BASE, the Bielefeld Academic Search Engine, which provides an index of more than 150 million scientific outputs, and PubMed, the large bibliographic database in the natural sciences with a focus on biomedicine.
+## Discovery services
+Our approach is to use knowledge maps for discovery. Knowledge maps provide an instant overview of a topic by showing the main areas at a glance with relevant papers and concepts attached to each area (see example map below).
 
-Our search service includes a wide variety of output types (21), including datasets and multimedia files, and many resources, especially from university repositories, that are not included in commercial search engines. In addition, we do not restrict language in searches, thus increasing the visibility of non-English content and making the service especially appealing to communities that communicate in a language other than English. We can already see that these efforts have paid off. **Open Knowledge Maps serves both users from the Global South and the Global North:** most of our page views are from users in Indonesia, followed by the US, India, Germany, Austria, the UK, China, Canada, and Australia. In fact, we are seeing some of the strongest growth in the Global South with countries like India (109,000 page views, a fivefold increase in 2018), South Africa (10.500 views and a threefold increase in 2018), or Nigeria (a fourfold increase to 10,000 page views in 2018).
-
-![](images/Overview-of-research-on-digital-education-Open-Knowledge-Maps.png)
+![](images/example_map_heart_disease.png)
 Figure 1: Knowledge Map of "digital education", online at https://openknowledgemaps.org/map/c8fe7a11ca29a8b8580e5612fcebc42a
+
+Based on this concept, we operate the largest visual search engine for research in the world. On our website https://openknowledgemaps.org, users can create knowledge maps of research topics in any discipline (see Figure 1 for an example). Users can select between two integrations: BASE, the Bielefeld Academic Search Engine, which provides an index of more than 150 million scientific outputs, and PubMed, the large bibliographic database in the natural sciences with a focus on biomedicine. In addition, we operate a service that makes it possible to create knowledge maps of research projects. VIPER, the Visual Project Explorer, enables users to systematically explore a project’s output, and to understand its reception in different areas.
+
+Our search services incorporate a wide variety of output types (21), including datasets and multimedia files, and many resources, especially from university repositories, that are not included in commercial search engines. In addition, we do not restrict language in searches, thus increasing the visibility of non-English content and making the service especially appealing to communities that communicate in a language other than English. We can already see that these efforts have paid off. **Open Knowledge Maps serves both users from the Global South and the Global North:** most of our page views are from users in Indonesia, followed by the US, India, Germany, Austria, the UK, China, Canada, and Australia. In fact, we are seeing some of the strongest growth in the Global South with countries like India (109,000 page views, a fivefold increase in 2018), South Africa (10.500 views and a threefold increase in 2018), or Nigeria (a fourfold increase to 10,000 page views in 2018).
 
 Open Knowledge Maps supports a number of use cases, for which no comprehensive tools existed. These use cases include getting an overview of a topic at a glance and understanding the terminology related to that topic. Open Knowledge Maps also enables users to easily separate relevant from irrelevant papers with respect to their current information need by clustering papers into subtopics. Such cross-discipline overviews become more and more relevant, as the biggest problems of our time (including climate change, migration, globalisation) require an interdisciplinary approach. We also allow for direct access to OA papers within our interface, and offer annotation capabilities for these papers courtesy of Hypothesis. Thus, **we enable users to do a large part of their literature research within the same browser tab.**
 
@@ -84,11 +86,16 @@ In the [Enthusiasts program](https://openknowledgemaps.org/community) we involve
 
 [Back to top](#Table-of-Content)
 
+![](images/snapshot_training_event.png)
+Figure 1: Knowledge Map of "digital education", online at https://openknowledgemaps.org/map/c8fe7a11ca29a8b8580e5612fcebc42a
+
 ## Openness
 
-Open Knowledge Maps is based on the principles of open science: source code, content and data are shared under an open license. We are a building block of the open discovery infrastructure, with which we extensively collaborate. As a community-driven initiative, we develop our services in a participatory process together with our stakeholders. Our aim is to create an inclusive, sustainable and equitable infrastructure that can be used by anyone, independent of geographic area, age, or stakeholder group. Therefore, we are also conducting workshops to introduce potential users to the tool and help improve their discovery skills along the way. In our community program, the Enthusiasts program, we support power users and ambassadors to conduct workshops themselves and to give feedback from their community’s perspective.
+**Open Knowledge Maps is an open infrastructure** based on the principles of open science: source code, content and data are shared under an open license. We are a building block of the open discovery infrastructure, with which we extensively collaborate. As a community-driven initiative, we develop our services in a participatory process together with our stakeholders (see section 2.6 on governance). Our aim is to create an inclusive, sustainable and equitable infrastructure that can be used by anyone, independent of geographic area, age, or stakeholder group. Therefore, we are also conducting workshops to introduce potential users to the tool and help improve their discovery skills along the way. In our community program, the Enthusiasts program, we support power users and ambassadors to conduct workshops themselves and to give feedback from their community’s perspective.
 
 [Back to top](#Table-of-Content)
+
+![](images/community_driven_owned.png)
 
 ## Sustainability
 
@@ -172,7 +179,7 @@ Based on user feedback and popular use cases we are planning to e.g. integrate f
 * **OA Button:** provide OA Button within the interface for non-OA items  
 * **Zotero:** enable exporting citations to Zotero  
 
-We will also perform user tests evaluating the implementation of the functionalities mentioned above. In addition, we will work towards integrations of our functionalities in other open infrastructures.
+We will also perform user tests evaluating the implementation of the functionalities mentioned above. In addition, we will work towards integration of our functionalities in other open infrastructures.
 
 **3) Provide data interfaces to our database**  
 The open science ecosystem relies on the creation of positive network effects, from which we benefit in our daily use of open APIs, and to which we want to contribute by offering an API to our own services and data sets. This includes providing a means of access to our services’ knowledge mapping capabilities (‘Discovery as a Service’), and bulk data access to our underlying data sets, so that other initiatives can re-use this for e.g. building on top of that data or research purposes. For those sections of our future data sets that include user-contributed content, our data interfaces will be constrained to data for which users consciously opt-in prior to any publication.
