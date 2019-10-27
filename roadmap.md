@@ -35,6 +35,7 @@ As part of our mission, we operate the largest visual search engine for research
 **Open Knowledge Maps was established in 2016, but it has already become a crucial infrastructure** for researchers, students and practitioners around the world. In the last 3 years, we have had more than half a million visits on the website, and more than 140,000 maps were created. In addition, we had more than 1,500 participants in our workshops worldwide. At the same time, we have been rapidly growing our platform and coverage to a stable and user-friendly service with high availability. We have also developed an agile organisation, a strong community, and professional outreach and training efforts.
 
 ![](images/1-our-offering.png)
+Figure 1: Overview of our services
 
 In the future, we want to enable our users to collaboratively edit the knowledge maps on our platform, thus **transforming discovery from a closed individual process to an open and collaborative one.** By sharing the results of our discoveries, we can build on top of each other’s knowledge. This process will be aided by our artificial intelligence core and result in a large-scale system of open, interactive and interlinked knowledge maps for every research topic, every field and every discipline. **Users will be able to explore the entirety of scientific knowledge within this system.** In addition, we will provide the information generated in the OKMaps system back to the open discovery infrastructure, both the knowledge models as well as metadata improved or added by our users. Therefore, Open Knowledge Maps will be the only visual interface that combines machine learning with human curation, providing a truly human-centered service as a result. View here a [video of that vision](https://vimeo.com/188647919).
 
@@ -44,14 +45,14 @@ In the future, we want to enable our users to collaboratively edit the knowledge
 Our approach is to use knowledge maps for discovery. Knowledge maps provide an instant overview of a topic by showing the main areas at a glance with relevant papers and concepts attached to each area (see example map below).
 
 ![](images/2-example-map-heart-disease.png)
-Figure 1: Knowledge Map of "digital education", online at https://openknowledgemaps.org/map/c8fe7a11ca29a8b8580e5612fcebc42a
+Figure 2: Exemplary knowledge map of the area of “heart diseases”
 
 Based on this concept, we operate the largest visual search engine for research in the world. On our website https://openknowledgemaps.org, users can create knowledge maps of research topics in any discipline (see Figure 1 for an example). Users can select between two integrations: BASE, the Bielefeld Academic Search Engine, which provides an index of more than 150 million scientific outputs, and PubMed, the large bibliographic database in the natural sciences with a focus on biomedicine. In addition, we operate a service that makes it possible to create knowledge maps of research projects. VIPER, the Visual Project Explorer, enables users to systematically explore a project’s output, and to understand its reception in different areas.
 
 Our search services incorporate a wide variety of output types (21), including datasets and multimedia files, and many resources, especially from university repositories, that are not included in commercial search engines. In addition, we do not restrict language in searches, thus increasing the visibility of non-English content and making the service especially appealing to communities that communicate in a language other than English. We can already see that these efforts have paid off. **Open Knowledge Maps serves both users from the Global South and the Global North:** most of our page views are from users in Indonesia, followed by the US, India, Germany, Austria, the UK, China, Canada, and Australia. In fact, we are seeing some of the strongest growth in the Global South with countries like India (109,000 page views, a fivefold increase in 2018), South Africa (10.500 views and a threefold increase in 2018), or Nigeria (a fourfold increase to 10,000 page views in 2018).
 
 ![](images/2-overview-digital-education.png)
-Figure 1: Knowledge Map of "digital education", online at https://openknowledgemaps.org/map/c8fe7a11ca29a8b8580e5612fcebc42a 
+Figure 3: Knowledge Map of "digital education", online at https://openknowledgemaps.org/map/c8fe7a11ca29a8b8580e5612fcebc42a
 
 Open Knowledge Maps supports a number of use cases, for which no comprehensive tools existed. These use cases include getting an overview of a topic at a glance and understanding the terminology related to that topic. Open Knowledge Maps also enables users to easily separate relevant from irrelevant papers with respect to their current information need by clustering papers into subtopics. Such cross-discipline overviews become more and more relevant, as the biggest problems of our time (including climate change, migration, globalisation) require an interdisciplinary approach. We also allow for direct access to OA papers within our interface, and offer annotation capabilities for these papers courtesy of Hypothesis. Thus, **we enable users to do a large part of their literature research within the same browser tab.**
 
@@ -90,6 +91,7 @@ In the past years, **we have successfully established a wide array of user engag
 In the [Enthusiasts program](https://openknowledgemaps.org/community) we involve Open Knowledge Maps power users and ambassadors in our engagement activities. Under our guidance, participants with diverse backgrounds from all around the world conduct workshops on open discovery and Open Knowledge Maps in their communities. In doing so, they collect valuable feedback on the future development of our services. These activities give us a unique opportunity to better understand our user groups and their specific needs, especially in regions and communities that we cannot reach, and thus **drive the Open Knowledge Maps development from a community perspective.**
 
 ![](images/3-training-sessions.png)
+Figure 4: Impressions from our training sessions
 
 [Back to top](#Table-of-Content)
 
@@ -98,6 +100,7 @@ In the [Enthusiasts program](https://openknowledgemaps.org/community) we involve
 **Open Knowledge Maps is an open infrastructure** based on the principles of open science: source code, content and data are shared under an open license. We are a building block of the open discovery infrastructure, with which we extensively collaborate. As a community-driven initiative, we develop our services in a participatory process together with our stakeholders (see section 2.6 on governance). Our aim is to create an inclusive, sustainable and equitable infrastructure that can be used by anyone, independent of geographic area, age, or stakeholder group. Therefore, we are also conducting workshops to introduce potential users to the tool and help improve their discovery skills along the way. In our community program, the Enthusiasts program, we support power users and ambassadors to conduct workshops themselves and to give feedback from their community’s perspective.
 
 ![](images/4-community-driven.png)
+Figure 5: Open Knowledge Maps is an open infrastructure that is community-owned and community-driven
 
 [Back to top](#Table-of-Content)
 
@@ -130,7 +133,7 @@ Open Knowledge Maps has the following branches (see Figure 2 below):
 (4) The community, with our users (including the enthusiasts), partners, and networks.
 
 ![](images/5-structure.png)
-Figure 2: The Open Knowledge Maps governance structure
+Figure 6: The Open Knowledge Maps governance structure
 
 The Executive Board is responsible for the management of the organization and the team. Together with the Executive Board, the team carries out the work to realize the purpose of the organization.
 
@@ -149,7 +152,7 @@ The auditors are responsible for auditing the financial management of the associ
 **Commercial infrastructures have, however, demonstrated a stronger emphasis on reaching market dominance than on developing innovative services.** Their reliance on proprietary indices and list-based interfaces, and a lack of community-driven development has led to the current discoverability crisis (see also section 1). In addition, commercial infrastructures retain all governance over their systems, including user data and algorithms, and due to their proprietary nature lead to lock-in effects. Thankfully, **we can see an open discovery ecosystem emerging** (see Figure 3). But this system is still developing: in a recent analysis [Bianca Kramer and Jeroen Bosman](https://docs.google.com/spreadsheets/d/1h0Aq6NYIeVnLDw33vx1SGnv1jbE2B7widbHhU7tpiUw/edit#gid=2141288902) identified just three scholarly commons-compliant infrastructures in the area of discovery - Open Knowledge Maps being one of them.
 
 ![](images/6-innovation-cycle.png)
-Figure 3: The open discovery infrastructure
+Figure 7: The open discovery infrastructure
 
 **The open discovery system is still fragmented and in particular, it needs innovative, cross-disciplinary frontends and infrastructures that act as a catalyst for its development. Open Knowledge Maps does not seek to replace traditional search engines, but to complement their strengths.** While search engines help users whose information need is clearly defined to access research outputs, Open Knowledge Maps provides discovery services that put single pieces of research into context, giving users with a more fuzzy information need multiple entry points into a topic. We also see ourselves complementary to the efforts of visualization tools such as VOSViewer or Scholia, which require expertise in creating and manipulating datasets. We therefore seek to create a useful workflow between all of these systems (see our collaborations with BASE, OpenAIRE and Scholia).
 
