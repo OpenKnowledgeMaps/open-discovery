@@ -1,7 +1,12 @@
 # Roadmap
 
 *by Peter Kraker, Maxi Schramm, Christopher Kittel and the [Open Knowledge Maps team](http://openknowledgemaps.org/team)*  
-Version: 3.0 beta (Update 2019)
+With input from [our advisory board](https://openknowledgemaps.org/team#advisors) and the Open Knowledge Maps community
+
+Version: 3.0 (Update December 2019)
+
+Let us know what you think!<br>
+We invite you to share your thoughts on our roadmap and services. You can get in touch via email, Twitter, or by creating an issue in this repository (Github account required).
 
 #### Table of Content
 
@@ -57,6 +62,8 @@ Figure 3: Knowledge Map of "digital education", online at https://openknowledgem
 Open Knowledge Maps supports a number of use cases, for which no other comprehensive tools existed before. These use cases include getting an overview of a topic at a glance and understanding the terminology related to that topic. Open Knowledge Maps also enables users to easily separate relevant from irrelevant papers with respect to their current information need by clustering papers into subtopics. Such cross-discipline overviews become more and more relevant as the biggest problems of our time (including [climate change, migration, globalisation](https://www.google.com/url?q=https://www.un.org/sustainabledevelopment/sustainable-development-goals/)) require an interdisciplinary approach. We also allow for direct access to OA papers within our interface, and offer annotation capabilities for these papers courtesy of Hypothesis. Thus, **we enable users to do a large part of their literature research within the same browser tab.**
 
 Outside of open infrastructures, the need for systems providing visual overviews of scientific fields has also been identified. At the moment **Open Knowledge Maps is the only solution in this space that is free and open, and that is usable without prior knowledge.**
+
+[Try out our service](https://openknowledgemaps.org) and let us know what you think.
 
 [Back to top](#Table-of-Content)
 
@@ -193,9 +200,9 @@ The open science ecosystem relies on the creation of positive network effects, f
 
 **4) Improve our capabilities for data discovery**  
 Research data are among the fastest growing openly accessible scientific outputs. There is a need to improve on the low rate of discoverability to increase the reuse of FAIR data - up to 85% of datasets are never cited (Peters et al. 2016). Moreover, several new entrants to the data discovery market are following a closed and proprietary model, therefore creating open alternatives becomes all the more important.
-We want to transfer our accumulated experience and competences from literature discoverability to visibility and discoverability of research data across disciplines. We are building on our existing experiences with including data sets in knowledge maps as part of the VIPER project, and supplementary datasets included in BASE. Our role as lead in the GO FAIR Implementation Network “Discovery” puts us in a unique position to work with the community on three tasks:
+We want to transfer our accumulated experience and competences from literature discoverability to visibility and discoverability of research data across disciplines. We are building on our existing experiences with including data sets in knowledge maps as part of the [VIPER project](https://openknowledgemaps.org/viper/), and supplementary datasets included in BASE. Our role as lead in the GO FAIR Implementation Network “Discovery” puts us in a unique position to work with the community on three tasks:
 * **Stocktaking:** We will identify relevant open indices and innovative open source interfaces and user-facing services to be (re-)used, as well as the main use cases that we want to address.  
-* **Structuring:** We will define the standards and structure of an an open ecosystem of services and interfaces for data discovery that fulfils the identified use cases.  
+* **Structuring:** We will define the standards and structure of an open ecosystem of services and interfaces for data discovery that fulfils the identified use cases.  
 * **Implementation:** We will work towards implementation of the ecosystem laid out above.
 
 **5) Refactoring project: improving our platform and its reusability**  
