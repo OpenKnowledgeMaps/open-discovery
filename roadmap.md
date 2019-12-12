@@ -20,6 +20,7 @@ We invite you to share your thoughts on our roadmap and services. You can get in
   2.6 [Governance](#Governance)
 1. [Open Knowledge Maps as part of an open discovery infrastructure](#Open-Knowledge-Maps-as-part-of-an-open-discovery-infrastructure)
 1. [Workplan](#Workplan)
+1. [Support us](#Support-us)
 
 # Motivation
 
@@ -226,5 +227,21 @@ We have started a very successful advocacy campaign for open infrastructures, wh
 We have already successfully transitioned from a pure volunteer organisation to one that mixes volunteer work with funded projects. We have set up an organisational structure including executive and administrative functions, supported by a number of project management tools, that allows us to do that in an agile way. Going forward, we will establish the necessary processes and administrative functions to deal with paid staff.
 
 Going forward, we will improve our operational transparency. We already provide information about our sustainability goals and efforts on funding, including our membership-based funding model and will continue to do so. We will also communicate our governance structure and decision-making processes on our website.
+
+[Back to top](#Table-of-Content)
+
+# Support us
+
+You can support Open Knowledge Maps in a variety of ways:
+Let us know what you think: share your thoughts on our roadmap and services via email, Twitter, or by creating an issue in this repository (Github account required).
+
+Become an enthusiast: are you interested in spreading the word on open discovery and Open Knowledge Maps? Sign up for our Enthusiasts program
+
+Make a donation (for individuals and organizations): If you wantwould like to help us financially in achieving our goals, consider making a donation.
+
+Become a supporting member (for organizations): to provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort: organizations become supporting members and provide a yearly contribution. In return, our supporting members are invited to co-create the platform with us. Find out more on our website.
+
+Fund our roadmap (for funders): we are currently looking for dedicated funding for all activities in our work plan. Please get in touch with Open Knowledge Maps founder and chairman Peter Kraker.
+
 
 [Back to top](#Table-of-Content)
