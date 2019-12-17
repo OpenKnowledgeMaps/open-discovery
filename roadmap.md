@@ -1,12 +1,12 @@
 # Roadmap
 
-*by Peter Kraker, Maxi Schramm, Christopher Kittel and the [Open Knowledge Maps team](http://openknowledgemaps.org/team)*  
-With input from [our advisory board](https://openknowledgemaps.org/team#advisors) and the Open Knowledge Maps community
+*By Peter Kraker, Maxi Schramm, Christopher Kittel and [the Open Knowledge Maps team](https://openknowledgemaps.org/team)*  
+*With input from [our advisory board](https://openknowledgemaps.org/team#advisors) and [the Open Knowledge Maps community](https://openknowledgemaps.org/community)*
 
 Version: 3.0 (Update December 2019)
 
-Let us know what you think!<br>
-We invite you to share your thoughts on our roadmap and services. You can get in touch via [email](mailto:info@openknowledgemaps.org), [Twitter](https://twitter.com/OK_Maps), or [by creating an issue](https://github.com/OpenKnowledgeMaps/open-discovery/issues) in this repository (Github account required).
+**Let us know what you think!**<br>
+We invite you to share your thoughts on our roadmap and services. You can get in touch via [email](mailto:info@openknowledgemaps.org), [Twitter](https://twitter.com/OK_Maps), or [by creating an issue](https://github.com/OpenKnowledgeMaps/open-discovery/issues) in this repository.
 
 #### Table of Content
 
@@ -233,15 +233,16 @@ Going forward, we will improve our operational transparency. We already provide 
 # Support us
 
 You can support Open Knowledge Maps in a variety of ways:
-Let us know what you think: share your thoughts on our roadmap and services via email, Twitter, or by creating an issue in this repository (Github account required).
 
-Become an enthusiast: are you interested in spreading the word on open discovery and Open Knowledge Maps? Sign up for our Enthusiasts program
+**Let us know what you think:** share your thoughts on our roadmap and services via [email](mailto:info@openknowledgemaps.org), [Twitter](https://twitter.com/OK_Maps), or [by creating an issue](https://github.com/OpenKnowledgeMaps/open-discovery/issues) in this repository.
 
-Make a donation (for individuals and organizations): If you wantwould like to help us financially in achieving our goals, consider making a donation.
+**Become an enthusiast:** are you interested in spreading the word on open discovery and Open Knowledge Maps? [Sign up for our Enthusiasts program](https://openknowledgemaps.org/community#enthusiasts-program)
 
-Become a supporting member (for organizations): to provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort: organizations become supporting members and provide a yearly contribution. In return, our supporting members are invited to co-create the platform with us. Find out more on our website.
+**Make a donation** (for individuals and organizations): If you want to help us financially in achieving our goals, consider [making a donation](https://openknowledgemaps.org/donate-now).
 
-Fund our roadmap (for funders): we are currently looking for dedicated funding for all activities in our work plan. Please get in touch with Open Knowledge Maps founder and chairman Peter Kraker.
+**Become a supporting member** (for organizations): to provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort: organizations become supporting members and provide a yearly contribution. In return, our supporting members are invited to co-create the platform with us. Find out more [on our website](https://openknowledgemaps.org/supporting-membership).
+
+**Fund our roadmap** (for funders): we are currently looking for dedicated funding for all activities in our work plan. Please get in touch with Open Knowledge Maps founder and chairman [Peter Kraker](mailto:pkraker@openknowledgemaps.org).
 
 
 [Back to top](#Table-of-Content)
