@@ -6,7 +6,7 @@ With input from [our advisory board](https://openknowledgemaps.org/team#advisors
 Version: 3.0 (Update December 2019)
 
 Let us know what you think!<br>
-We invite you to share your thoughts on our roadmap and services. You can get in touch via [email](info@openknowledgemaps.org), [Twitter](https://twitter.com/OK_Maps), or [by creating an issue](https://github.com/OpenKnowledgeMaps/open-discovery/issues) in this repository (Github account required).
+We invite you to share your thoughts on our roadmap and services. You can get in touch via [email](mailto:info@openknowledgemaps.org), [Twitter](https://twitter.com/OK_Maps), or [by creating an issue](https://github.com/OpenKnowledgeMaps/open-discovery/issues) in this repository (Github account required).
 
 #### Table of Content
 
