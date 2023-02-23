@@ -1,4 +1,4 @@
-# Roadmap
+# White Paper
 
 *By Peter Kraker, Maxi Schramm, Christopher Kittel and [the Open Knowledge Maps team](https://openknowledgemaps.org/team)*  
 *With input from [our advisory board](https://openknowledgemaps.org/team#advisors) and [the Open Knowledge Maps community](https://openknowledgemaps.org/community)*
